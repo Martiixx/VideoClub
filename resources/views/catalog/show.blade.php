@@ -55,7 +55,11 @@
         {{ csrf_field()}}
         <button type="submit" class="btn btn-danger" style="display:inline" >Volver a Peliculas</button>
         </form>
-        
+        <form action="{{url('/catalog/delete/'.$pelicula->id)}}" method="post" style="display:inline">
+        {{method_field('DELETE')}}
+        {{ csrf_field()}}
+        <button type="submit" class="btn btn-danger" style="display:inline" >Eliminar Pelicula</button>
+        </form>
 		
 		
 		

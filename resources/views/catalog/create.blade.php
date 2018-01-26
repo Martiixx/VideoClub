@@ -12,7 +12,7 @@
             <form action="{{ url('/catalog/create') }}" method="post" style="display:inline">
             {{csrf_field()}}
 
-            {{-- TODO: Protección contra CSRF --}}
+            {{-- TODO: Protección contra CSRF:ok --}}
 
             <div class="form-group">
                <label for="title">Titulo:</label>
@@ -22,19 +22,19 @@
             <div class="form-group">
             	<label for="year">Año: </label>
             	<input type="text" name="year" id="year" >
-               {{-- TODO: Completa el input para el año --}}
+               {{-- TODO: Completa el input para el año:ok --}}
             </div>
 
             <div class="form-group">
             	<label for="director">Director: </label>
             	<input type="text" name="director" id="director" >
-               {{-- TODO: Completa el input para el director --}}
+               {{-- TODO: Completa el input para el director:ok --}}
             </div>
 
             <div class="form-group">
             	<label for="poster">Poster(link): </label>
             	<input type="text" name="poster" id="poster" >
-               {{-- TODO: Completa el input para el poster --}}
+               {{-- TODO: Completa el input para el poster:ok --}}
             </div>
 
             <div class="form-group">
